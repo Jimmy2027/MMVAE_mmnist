@@ -1,4 +1,6 @@
 # MMVAE_mmnist
+[![Build Status](https://travis-ci.com/Jimmy2027/MMVAE_mmnist.svg?branch=main)](https://travis-ci.com/Jimmy2027/MMVAE_mmnist)
+
 Codebase for training multi modal VAEs on the MNIST-SVHN-TEXT dataset.
 
 ## Installation

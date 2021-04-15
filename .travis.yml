@@ -1,6 +1,11 @@
 language: python
 cache: pip
 python: "3.9"
+before_install:
+  - git clone https://github.com/Jimmy2027/MMVAE_base
+  - cd MMVAE_base
+  - pip install .
+  - cd ..
 install:
   - pip install tox
 script:

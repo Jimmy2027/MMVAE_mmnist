@@ -7,3 +7,5 @@ class Testmmvae(unittest.TestCase):
 
     def test_import(self):
         """Tests the imports for the mmvae_mmnist package."""
+        import mmvae_mmnist
+        import mmvae_base
